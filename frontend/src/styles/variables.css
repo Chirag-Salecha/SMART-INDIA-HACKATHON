@@ -1,0 +1,29 @@
+:root {
+  /* Core palette - institutional / procurement register aesthetic */
+  --ink-900: #101c31;      /* primary dark - sidebar, headings */
+  --ink-700: #1c3357;      /* secondary dark - hover states */
+  --paper-0: #f6f4ee;      /* warm paper background */
+  --paper-50: #ffffff;     /* card surfaces */
+  --line-200: #ddd8ca;     /* hairline borders on paper */
+  --line-700: #2c4066;     /* hairline borders on dark surfaces */
+  --steel-600: #56607a;    /* secondary text */
+  --steel-900: #1a2233;    /* primary text */
+
+  --status-verified: #1f7a4d;
+  --status-verified-bg: #e7f3ec;
+  --status-pending: #a6720f;
+  --status-pending-bg: #faf1de;
+  --status-risk: #a8291f;
+  --status-risk-bg: #f9e9e7;
+
+  --accent-gold: #b78a2e;
+
+  --font-display: "Spectral", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --radius-sm: 2px;
+  --radius-md: 3px;
+
+  --shadow-card: 0 1px 2px rgba(16, 28, 49, 0.06);
+}

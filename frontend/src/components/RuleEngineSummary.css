@@ -1,0 +1,147 @@
+.rule-engine-summary {
+  padding: 24px;
+}
+
+.rule-engine-header {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 18px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--line-200);
+}
+
+.rule-engine-label {
+  font-size: 11.5px;
+  color: var(--steel-600);
+  margin-bottom: 6px;
+}
+
+.rule-engine-score {
+  font-family: var(--font-display);
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--ink-900);
+  margin-bottom: 4px;
+}
+
+.rule-engine-hint {
+  font-size: 11px;
+  color: var(--steel-600);
+  max-width: 220px;
+}
+
+.rule-engine-risk {
+  font-family: var(--font-display);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.rule-engine-risk--compliant { color: var(--status-verified); }
+.rule-engine-risk--review { color: var(--status-pending); }
+.rule-engine-risk--missing { color: var(--status-risk); }
+
+.rule-engine-reasons,
+.rule-engine-recommendations {
+  margin-bottom: 18px;
+}
+
+.rule-engine-reasons h4,
+.rule-engine-recommendations h4 {
+  font-size: 12.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--steel-600);
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.rule-engine-reasons ul,
+.rule-engine-recommendations ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--steel-900);
+}
+
+.rule-engine-missing-docs {
+  background: var(--status-risk-bg);
+  color: var(--status-risk);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  font-size: 13px;
+  margin-bottom: 18px;
+}
+
+.rule-engine-categories {
+  list-style: none;
+  margin: 0 0 18px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.rule-engine-category {
+  border: 1px solid var(--line-200);
+  border-radius: var(--radius-sm);
+}
+
+.rule-engine-category-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 13.5px;
+  color: var(--steel-900);
+  text-align: left;
+}
+
+.rule-engine-category-row:hover {
+  background: var(--paper-0);
+}
+
+.rule-engine-category-icon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--paper-50);
+}
+
+.rule-engine-category-icon--compliant { background: var(--status-verified); }
+.rule-engine-category-icon--review { background: var(--status-pending); }
+.rule-engine-category-icon--missing { background: var(--status-risk); }
+
+.rule-engine-category-name {
+  flex: 1;
+  font-weight: 500;
+}
+
+.rule-engine-category-weight {
+  font-size: 11.5px;
+  color: var(--steel-600);
+  font-family: var(--font-mono);
+}
+
+.rule-engine-category-detail {
+  padding: 10px 14px 14px 46px;
+  border-top: 1px solid var(--line-200);
+  font-size: 13px;
+  color: var(--steel-900);
+  line-height: 1.6;
+}
+
+.rule-engine-category-detail p {
+  margin: 0 0 4px;
+}

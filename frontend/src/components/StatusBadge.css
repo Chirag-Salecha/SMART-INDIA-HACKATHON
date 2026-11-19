@@ -1,0 +1,27 @@
+.status-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: var(--radius-sm);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-badge--neutral {
+  background: #eceff4;
+  color: var(--steel-600);
+}
+
+.status-badge--verified {
+  background: var(--status-verified-bg);
+  color: var(--status-verified);
+}
+
+.status-badge--pending {
+  background: var(--status-pending-bg);
+  color: var(--status-pending);
+}
+
+.status-badge--risk {
+  background: var(--status-risk-bg);
+  color: var(--status-risk);
+}

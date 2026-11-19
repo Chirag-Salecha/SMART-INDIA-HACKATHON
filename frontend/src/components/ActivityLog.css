@@ -1,0 +1,98 @@
+.activity-log {
+  background: var(--paper-50);
+  border: 1px solid var(--line-200);
+  box-shadow: var(--shadow-card);
+}
+
+.activity-log-header {
+  padding: 20px 24px 16px;
+  border-bottom: 1px solid var(--line-200);
+}
+
+.activity-log-header h2 {
+  font-size: 17px;
+  margin-bottom: 4px;
+}
+
+.activity-log-header p {
+  font-size: 12.5px;
+  color: var(--steel-600);
+}
+
+.activity-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.activity-table th {
+  text-align: left;
+  font-size: 11.5px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--steel-600);
+  padding: 12px 24px;
+  border-bottom: 1px solid var(--line-200);
+}
+
+.activity-table td {
+  padding: 14px 24px;
+  font-size: 13.5px;
+  color: var(--steel-900);
+  border-bottom: 1px solid var(--line-200);
+}
+
+.activity-table tr:last-child td {
+  border-bottom: none;
+}
+
+.activity-tender-id {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--steel-600);
+}
+
+.activity-time {
+  color: var(--steel-600);
+  font-size: 12.5px;
+}
+
+.activity-status {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: var(--radius-sm);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.activity-status--verified {
+  background: var(--status-verified-bg);
+  color: var(--status-verified);
+}
+
+.activity-status--pending {
+  background: var(--status-pending-bg);
+  color: var(--status-pending);
+}
+
+.activity-status--risk {
+  background: var(--status-risk-bg);
+  color: var(--status-risk);
+}
+
+@media (max-width: 700px) {
+  .activity-table thead {
+    display: none;
+  }
+  .activity-table, .activity-table tbody, .activity-table tr, .activity-table td {
+    display: block;
+    width: 100%;
+  }
+  .activity-table tr {
+    padding: 12px 24px;
+    border-bottom: 1px solid var(--line-200);
+  }
+  .activity-table td {
+    border-bottom: none;
+    padding: 3px 0;
+  }
+}

@@ -1,0 +1,40 @@
+.compliance-tender-select {
+  width: 100%;
+  max-width: 480px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  padding: 10px 12px;
+  border: 1px solid var(--line-200);
+  border-radius: var(--radius-sm);
+  background: var(--paper-0);
+  color: var(--steel-900);
+}
+
+.compliance-risk-pill {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: var(--radius-sm);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.compliance-risk-pill--compliant {
+  background: var(--status-verified-bg);
+  color: var(--status-verified);
+}
+
+.compliance-risk-pill--review {
+  background: var(--status-pending-bg);
+  color: var(--status-pending);
+}
+
+.compliance-risk-pill--missing {
+  background: var(--status-risk-bg);
+  color: var(--status-risk);
+}
+
+@media print {
+  .sidebar, .topbar-actions, .btn {
+    display: none !important;
+  }
+}
