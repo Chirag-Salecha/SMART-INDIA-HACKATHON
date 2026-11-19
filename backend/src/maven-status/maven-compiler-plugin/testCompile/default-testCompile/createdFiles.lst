@@ -1,0 +1,9 @@
+com\sih\bidcompliance\service\RuleEngineServiceTest.class
+com\sih\bidcompliance\service\BidderGovernmentVerificationServiceTest.class
+com\sih\bidcompliance\service\CaseAComplianceIntegrationTest.class
+com\sih\bidcompliance\service\LocalContentEvaluatorTest.class
+com\sih\bidcompliance\service\DebarmentVerificationProviderTest.class
+com\sih\bidcompliance\service\GstVerificationProviderTest.class
+com\sih\bidcompliance\service\OfficerReviewServiceTest.class
+com\sih\bidcompliance\service\UdyamVerificationProviderTest.class
+com\sih\bidcompliance\service\PanVerificationProviderTest.class
